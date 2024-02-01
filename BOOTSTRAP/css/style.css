@@ -1,0 +1,28 @@
+.list-group-numbered li::before{
+    content: counter(list-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: pink;
+    padding: 5px;
+    margin-right: 10px;
+}
+.list-group-numbered li{
+    position: relative;
+    counter-increment: list-counter; 
+    padding-left: 30px; 
+    margin-bottom: 10px;
+}
+.row{
+  margin-top: 100px;
+  
+}
+.card{
+    margin-bottom: 20px;
+}
+img.card-img-top.{
+height: 1024px;
+width: 960px;
+
+    }
